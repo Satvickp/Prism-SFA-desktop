@@ -1,0 +1,57 @@
+
+[
+        {
+            "name": "Members",
+            "routerLink": ["/"],
+            "id":1
+        },
+        {
+            "name":"Attendance",
+            "routerLink":["/attendance"],
+            "id":2
+        },
+        {
+            "name":"Schedules",
+            "routerLink":["/members-scheduler"],
+            "id":3
+        },
+        {
+            "name":"Clients",
+            "routerLink":["/clients"],
+            "id":4
+        },{
+            "name":"Expenses",
+            "routerLink":["/expenses"],
+            "id":5
+        },
+        {
+            "name":"Products",
+            "routerLink":["/products"],
+            "id":6
+        },{
+            "name":"DRS",
+            "routerLink":["/status-report"],
+            "id":7
+        },
+        {
+            "name":"Primary Sale",
+            "routerLink":["/primarySales"],
+            "id":8
+        },
+        {
+            "name":"Secondary Sale",
+            "routerLink":["/secondarySales"],
+            "id":9
+        },
+        {
+            "name":"Holiday",
+            "routerLink":["/holiday"],
+            "id":9
+        },
+        {
+            "name":"Salary",
+            "routerLink":["/salary"],
+            "id":9
+        }
+
+    ]

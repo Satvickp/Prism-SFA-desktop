@@ -1,0 +1,19 @@
+/* Add smooth transition for box-shadow on hover */
+.report-card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .report-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+  }
+  
+  .report-card .card-body {
+    padding: 1.5rem; /* Slightly increase padding for a more spacious feel */
+  }
+  
+  /* Optional: Add a subtle scale effect when hovered */
+  .report-card:hover .card-body {
+    transform: scale(1.05);
+  }
+  

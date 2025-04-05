@@ -1,0 +1,14 @@
+/* Sticky Action Column */
+.action-column {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    right: 0;
+    z-index: 10;
+    background-color: #fff; /* Ensure the background color is the same as your table's background */
+    border-left: 1px solid #ddd; /* Optional: add a border to separate the column */
+  }
+  
+  .react-dataTable .rdt_Table .rdt_TableHeader {
+    z-index: 5; /* Ensure that the header is above the content */
+  }
+  

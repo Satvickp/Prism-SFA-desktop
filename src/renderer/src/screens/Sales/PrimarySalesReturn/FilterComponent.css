@@ -1,0 +1,88 @@
+.filter-component {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: max-content;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.custom-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.react-select-container {
+  width: 100%;
+}
+
+.date-filter {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 10;
+}
+
+.date-picker-wrapper {
+  margin-bottom: 15px;
+}
+
+.date-picker-wrapper label {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.compact-calendar .rdrCalendarWrapper {
+  font-size: 12px;
+  max-width: 280px; 
+  margin: 0 auto; 
+  position: absolute;
+}
+
+.compact-calendar .rdrDateDisplayWrapper {
+  font-size: 12px; 
+}
+
+.compact-calendar .rdrMonthAndYearWrapper {
+  font-size: 14px; 
+  padding: 5px;
+}
+
+.compact-calendar .rdrDateRangeWrapper {
+  font-size: 12px; 
+}
+
+.compact-calendar .rdrMonth {
+  padding: 5px;
+}
+
+.react-date-range__input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.react-date-range__input:focus {
+  border-color: #007bff;
+  outline: none;
+}

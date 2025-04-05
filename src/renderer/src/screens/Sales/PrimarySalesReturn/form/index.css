@@ -1,0 +1,10 @@
+.model-custom {
+  margin-left: 0;
+}
+
+@media (min-width: 1200px) {
+  .model-custom {
+    margin-left: 10%;
+  }
+}
+

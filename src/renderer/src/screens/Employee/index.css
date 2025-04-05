@@ -1,0 +1,16 @@
+.rdt_TableCol:first-child {
+    background-color: rgb(241, 245, 249);
+    position: sticky;
+    right: 0;
+    z-index: 1;
+  }
+  .rdt_TableCell:first-child {
+    position: sticky;
+    right: 0;
+    z-index: 1;
+    background: inherit;
+  }
+  
+  .rdt_TableCol_Sortable{
+    overflow: visible;
+  }

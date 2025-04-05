@@ -1,0 +1,182 @@
+.left-side-changes-logo {
+  width: 250px;
+  height: 250px;
+  margin-bottom: -100px;
+}
+
+.loader-div {
+  position: absolute;
+  top: 58%;
+  left: 49%;
+}
+
+.loader-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  margin-bottom: -100px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid rgb(118, 115, 115);
+  border-bottom: 1px solid rgb(118, 115, 115);
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+}
+
+.darker-row {
+  background-color: #f2f2f2;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-dropdown {
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-header {
+  padding: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 170px;
+  overflow-y: auto;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 3px;
+  z-index: 10;
+  z-index: 999;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.dropdown-item.selected {
+  background-color: #e0e0e0;
+}
+
+.load-more-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.load-more-button:hover {
+  background-color: #0056b3;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #000; /* Change the color if desired */
+}
+
+.bg-red {
+  background-color: red;
+  /* Add any other styling properties you need */
+} /*# sourceMappingURL=custom-changes.css.map */
+
+.attendance-hover-box {
+  box-shadow: 4px 3px 5px 2px gray;
+  overflow: scroll;
+}
+
+.scheduleModal {
+  width: 80%;
+  height: 100%;
+  background-color: red;
+}
+
+.multiDropdown {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.multiDropdownSubHeader {
+  display: flex;
+  justify-content: start;
+  padding: 1px;
+  flex-wrap: wrap;
+  top: 10px;
+}
+
+.multiDropdownHeaderList {
+  background-color: #4261ee;
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 11px;
+  margin: 5px;
+}
+
+.multiSelectNotSelected {
+  margin-top: 10px;
+}
+.multiDropdownHeaderListCross {
+  margin-left: 5px;
+  z-index: 10;
+}
+
+.scheduleAdd {
+  background-color: #484c7f;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 99;
+  right: 10px;
+  width: 70px;
+  margin-bottom: 10px;
+  
+}
+
+
+.list-sch-data{
+ top: -10px;
+}

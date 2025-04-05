@@ -1,0 +1,34 @@
+/* Default container layout (for larger screens) */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin: 0 auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-container > * {
+  margin-bottom: 10px; /* Adjust the space between elements */
+}
+
+.select-custom-css {
+  width: 200px;
+}
+
+.sbt-btn {
+}
+
+/* For smaller screens (like mobile devices), change flex direction to column */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: start;
+  }
+  .select-custom-css {
+    width: 100%;
+  }
+  .sbt-btn {
+    align-self: center;
+  }
+}
